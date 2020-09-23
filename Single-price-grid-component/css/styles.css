@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  justify-content: center;
+  align-content: center;
+  background-color: hsla(219, 28%, 88%, 0.637);
+}
+h1 {
+  color: hsl(179, 62%, 43%);
+  
+}
+h2 {
+  color: whitesmoke;
+}
+h3 {
+  color: hsl(71, 73%, 54%);
+}
+p {
+  color: hsl(204, 43%, 93%);
+}
+section#m-s {
+  position: relative;
+}
+button {
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  font-size: 1rem;
+  align-items: center;
+  width: 80%;
+  padding: 3%;
+  background-color: hsl(71, 73%, 54%);
+  border: 0;
+  border-radius: 5px;
+  color: hsl(210, 33%, 99%);
+  box-shadow: 0px 0px 26px -12px rgba(33,32,33,1);
+  
+}
+p span {
+  font-weight: 700;
+  font-size: 3rem;
+  vertical-align: middle;
+  color: hsl(204, 43%, 93%);
+}
+#j-o-c p{
+  color: hsl(218, 22%, 67%);
+  line-height: 1.7rem;
+}
+#amount{
+  font-size: 1rem;
+  color: hsla(203, 44%, 93%, 0.753);
+  /* vertical-align: middle; */
+}
+#j-o-c {
+  margin-top: 12%;
+  padding: 5% 6% 5% 8%;
+  border-radius: 10px 10px 0 0;
+  background-color: hsl(0, 0%, 100%);
+}
+#m-s {
+  background-color: hsl(179, 62%, 43%);
+  padding: 5% 6% 5% 8%;
+  position: relative;
+  height: 250px;
+  /* height: 38vh; */
+}
+#w-u {
+  background-color: hsla(179, 62%, 43%, 0.747); 
+  padding: 5% 6% 5% 8%;
+  line-height: 1.5rem;
+  border-radius: 0 0 10px 10px ;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+  
+}
+.row {
+  margin: 0 auto;
+  width: 100%;
+  
+}
+.attribution { 
+  font-size: 14px; text-align: center; 
+  clear: both;
+  padding-top: 25px;
+  color: black;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .col-sm-6, .col-sm-12 {
+    float: left;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 992px ) {
+  button {
+    margin-top: 5%;
+    width: 75%;
+  }
+  #j-o-c {
+    margin-top: 35%;
+  }
+  #m-s {
+    height: 300px;
+    /* height: 30vh; */
+    padding: 5% 2% 5% 14%;
+    border-radius: 0 0 0px 10px ;
+  }
+  #w-u {
+    /* height: 30vh; */
+    height: 300px;
+    padding: 5% 2% 5% 14%;
+    border-radius: 0 0 10px 0px ;
+  }
+  .row {
+    width: 50%;
+  }
+  
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+
+}
